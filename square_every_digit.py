@@ -4,6 +4,5 @@ def square_digits(num):
       squared = int(digit) ** 2      
       output += str(squared)   
     return int(output)
-    print(output)   
 
 square_digits(0)
